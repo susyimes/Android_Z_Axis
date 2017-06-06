@@ -1,0 +1,54 @@
+<no.agens.depth.lib.DepthRendrer xmlns:android="http://schemas.android.com/apk/res/android"
+                                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                                 xmlns:tools="http://schemas.android.com/tools"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"
+                                 android:background="#666666"
+                                android:id="@+id/parent"
+    >
+
+
+
+    <no.agens.depth.lib.DepthLayout
+        android:id="@+id/depth_view"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        app:is_circle="false"
+
+
+
+        >
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/playcon"
+            />
+
+    </no.agens.depth.lib.DepthLayout>
+    <no.agens.depth.lib.DepthLayout
+        android:id="@+id/depth_view2"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        app:is_circle="false"
+
+
+        >
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/playcon"
+            />
+
+    </no.agens.depth.lib.DepthLayout>
+
+
+
+</no.agens.depth.lib.DepthRendrer>
